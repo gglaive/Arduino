@@ -28,7 +28,7 @@ void loop() {
     }
     if (receivedChar == '2') {
       digitalWrite(led, LOW);
-      delay(500);
+      delay(1000);
     }
     
 }
