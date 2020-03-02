@@ -135,6 +135,8 @@ def to_morse(letter):
 		trad = b"1011"
 	if (letter == "Z"):
 		trad = b"1100"
+	if (letter == " "):
+		trad = b"2"
 	return trad
 
 '''	
